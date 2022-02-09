@@ -1,0 +1,10 @@
+CREATE OR REPLACE VIEW ukupno_ostecenih AS
+ (  SELECT count(prijavljena_steta.steta_ugovor_u_id), ugovor.u_id, ugovor.korisnik_osiguranja_ko_jmbg FROM ugovor full outer join prijavljena_steta on ugovor.u_id = prijavljena_steta.steta_ugovor_u_id group by ugovor.u_id);
+	CREATE OR REPLACE VIEW osteceni_s_prijavama
+	AS ( SELECT osteceno_lice.ol_jmbg, osteceno_lice.ol_ime, osteceno_lice.ol_prezime, prijavljena_steta.steta_ugovor_u_id
+		 FROM osteceno_lice left outer join prijavljena_steta on osteceno_lice.ol_jmbg = prijavljena_steta.osteceno_lice_ol_jmbg );
+CREATE OR REPLACE VIEW obracunate
+	AS ( SELECT primljena_procena.obracun_naknade_on_id, primljena_p_steta.prijavljena_steta_steta_ugovor_u_id, ugovor.u_id 
+	     FROM primljena_p_steta left outer join primljena_procena on primljena_p_steta.procena_stete_ps_id = primljena_procena.procena_stete_ps_id right outer join ugovor on primljena_p_steta.prijavljena_steta_steta_ugovor_u_id = ugovor.u_id );
+CREATE OR REPLACE VIEW result as ( SELECT DISTINCT korisnik_osiguranja.ko_jmbg, korisnik_osiguranja.ko_ime, korisnik_osiguranja.ko_prezime, ukupno_ostecenih.count as broj_prijava, ukupno_ostecenih.u_id, coalesce(osteceni_s_prijavama.ol_jmbg, 'nema ostecenih') as osteceno_lice_jmbg, coalesce(osteceni_s_prijavama.ol_ime, 'nema ostecenih' ) as osteceno_lice_ime, coalesce (osteceni_s_prijavama.ol_prezime, 'nema ostecenih') as osteceno_lice_prezime, coalesce (cast(obracunate.obracun_naknade_on_id as text), 'nije obracunata/nema prijave') as broj_obracuna FROM ukupno_ostecenih left outer join osteceni_s_prijavama on ukupno_ostecenih.u_id = osteceni_s_prijavama.steta_ugovor_u_id left outer join obracunate on ukupno_ostecenih.u_id = obracunate.u_id, korisnik_osiguranja
+WHERE ukupno_ostecenih.korisnik_osiguranja_ko_jmbg = korisnik_osiguranja.ko_jmbg); SELECT * FROM result;
