@@ -1,0 +1,170 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AE733862-5CF9-7649-C2CC-C2FE323CCBD1" name="Account">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:29:27 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="D3C4CC82-BCF8-ECED-B201-A178A1419218" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<discriminatorAttributeID>5E3457D7-5FE4-C52D-9D59-7698EBCDE2FD</discriminatorAttributeID>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="8FB02F91-68DD-A48B-0617-54BDF2898BF0">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:29:44 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="D3C4CC82-BCF8-ECED-B201-A178A1419218" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FirstName" id="390353F3-35C8-CD0F-0162-D3C2E5DD6C50">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:29:38 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="D3C4CC82-BCF8-ECED-B201-A178A1419218" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LastName" id="0F363EDA-91B4-7F3D-FA6C-0B22AF05DA95">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:30:19 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="D3C4CC82-BCF8-ECED-B201-A178A1419218" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Jmbg" id="F5F36768-B5E2-369F-C76A-9121593FD769">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:30:38 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="D3C4CC82-BCF8-ECED-B201-A178A1419218" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="2B948D1B-E9D4-D3B5-A9B8-FABCE7EC9921">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:30:56 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="D3C4CC82-BCF8-ECED-B201-A178A1419218" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Username" id="8C53DC38-6E8E-09FB-D947-0568A8BECAF5">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:31:30 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="D3C4CC82-BCF8-ECED-B201-A178A1419218" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Password" id="0F0CF3D9-5ABD-F979-DD25-32649B84B40E">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:31:46 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="D3C4CC82-BCF8-ECED-B201-A178A1419218" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Birthday" id="C15ABB72-ECD1-B1DB-37EE-8BDFAA625828">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:32:07 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="D3C4CC82-BCF8-ECED-B201-A178A1419218" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AccountType" id="5E3457D7-5FE4-C52D-9D59-7698EBCDE2FD">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:32:19 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="D3C4CC82-BCF8-ECED-B201-A178A1419218" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D3A83599-61EF-6451-EB30-71C58317B610</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="School" id="16F97F9C-5835-2A7C-C735-3BCA16C59843">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:33:12 UTC</createdTime>
+<generatorID>620A1722-4B4D-7A15-906B-15B385788608</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="D3C4CC82-BCF8-ECED-B201-A178A1419218" value="true"/>
+</engineerTo>
+<referedAttribute>C99DFE24-446B-B292-33C9-FA8A16080BC1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="981C66D2-9C3E-0638-A970-C34C86324EB4" name="Account PK">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:29:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="D3C4CC82-BCF8-ECED-B201-A178A1419218" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8FB02F91-68DD-A48B-0617-54BDF2898BF0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

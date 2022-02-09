@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AB9AE2C0-5651-FCDB-4822-5877FB7C3258" name="Online_Language_School">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<generatorID>D5AC0504-8580-F7C2-EFCD-CEF27DC5FCAD</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Name" id="60F07D00-A02B-66EF-083E-3833C116215A">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<generatorID>C99DFE24-446B-B292-33C9-FA8A16080BC1</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Url" id="FE9C2961-1A17-92AF-7FA4-DFD94C131CAF">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<generatorID>CFE07A03-87EA-034F-725A-B4E3482C7BCD</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PrivacyPolicy" id="0B06E2FB-3CD2-B573-D9CF-EB04CCB575AA">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<generatorID>2940E5A0-ECC5-000B-D1EE-5F559EF6D962</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TermsAndConditions" id="9219A169-A7A9-9ECC-4856-DA6661EA76DE">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<generatorID>B84B8E1E-9530-31F3-CE25-A6887263B922</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2E43BA6E-1DB4-1608-B389-1FD2C161D254" name="Online_Language_School_PK">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<generatorID>DE5A8A87-3776-348A-803E-AB13796965E6</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60F07D00-A02B-66EF-083E-3833C116215A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

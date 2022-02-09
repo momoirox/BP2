@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="537A4F30-0EB1-6F2E-4FD6-5A229C4AF8C4" name="Exam_Question">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<generatorID>58102BF0-5D61-232A-A735-6C1A96F124E2</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="C24AF917-35AD-A5A2-2E0F-0804BDA5DFE7">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<generatorID>92FA6F4E-9627-70DF-AD98-60B8D7F83DB8</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Description" id="DB1551BC-FEC4-D29F-E536-2E363C4112DA">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<generatorID>2F52F273-91F4-DBC1-CDC5-98C66633BB8A</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QPoints" id="991B170C-41FD-5908-CA59-9466DD445B7F">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<generatorID>0C58B2E7-F10A-72A8-B2C4-CFBED60A0BC9</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Exam_Id" id="9DB16898-3B4E-97E0-BE4E-427BE9151F29">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<generatorID>55C24F40-B268-F13E-198E-B3A62F993C66</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="94E81754-1973-1C59-30D5-FEE5D132A9AC" referredColumn="192D2806-F289-A211-A393-0C155A988850"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="15C409CB-F544-1908-4287-A29C27B36A94" name="Exam_Question_PK">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<generatorID>8611836F-DF0F-3968-D9B9-F9F80A86D65E</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C24AF917-35AD-A5A2-2E0F-0804BDA5DFE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="127AADCE-6E14-ECED-4D66-4B268680C425" name="Exam_Question_Exam_FK">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<generatorID>D64FAAFC-DB06-A075-65B9-399CCEB0161F</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9DB16898-3B4E-97E0-BE4E-427BE9151F29"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

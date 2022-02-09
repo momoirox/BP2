@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="selects_material" directorySegmentName="seg_0" id="BC6ED557-337D-9F4F-A5EF-EADE8735D250">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:43:52 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="D3C4CC82-BCF8-ECED-B201-A178A1419218" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>6BA37AA0-6B5C-20B3-0091-CA8CB1CDACA2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3061BA38-C53E-21DD-73FF-FC479BC60E09</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="TutorReview" id="5B3DD58C-271A-AB1D-4360-81D87D618891">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:52:29 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="D3C4CC82-BCF8-ECED-B201-A178A1419218" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

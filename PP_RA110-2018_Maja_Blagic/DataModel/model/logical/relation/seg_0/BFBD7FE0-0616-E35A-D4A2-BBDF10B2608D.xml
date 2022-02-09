@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="admin_answers" directorySegmentName="seg_0" id="BFBD7FE0-0616-E35A-D4A2-BBDF10B2608D">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:37:14 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="D3C4CC82-BCF8-ECED-B201-A178A1419218" value="true"/>
+</engineerTo>
+<sourcePk>3477B2C0-F1FD-9E77-F107-BAD1698C772A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>24A54675-67F1-647B-5C71-9C23D84E8652</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>33EFD3CD-444C-B8B6-FB07-9702609959C4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

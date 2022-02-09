@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="58102BF0-5D61-232A-A735-6C1A96F124E2" name="Exam Question">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:53:47 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="D3C4CC82-BCF8-ECED-B201-A178A1419218" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="92FA6F4E-9627-70DF-AD98-60B8D7F83DB8">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:54:12 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="D3C4CC82-BCF8-ECED-B201-A178A1419218" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Description" id="2F52F273-91F4-DBC1-CDC5-98C66633BB8A">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:54:19 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="D3C4CC82-BCF8-ECED-B201-A178A1419218" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="QPoints" id="0C58B2E7-F10A-72A8-B2C4-CFBED60A0BC9">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:54:34 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="D3C4CC82-BCF8-ECED-B201-A178A1419218" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ExamId" id="55C24F40-B268-F13E-198E-B3A62F993C66">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:55:02 UTC</createdTime>
+<generatorID>D64FAAFC-DB06-A075-65B9-399CCEB0161F</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="D3C4CC82-BCF8-ECED-B201-A178A1419218" value="true"/>
+</engineerTo>
+<referedAttribute>064E0A1D-7075-FF99-EAE5-7EDC9AA60784</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8611836F-DF0F-3968-D9B9-F9F80A86D65E" name="Exam Question PK">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:54:18 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="D3C4CC82-BCF8-ECED-B201-A178A1419218" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>92FA6F4E-9627-70DF-AD98-60B8D7F83DB8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

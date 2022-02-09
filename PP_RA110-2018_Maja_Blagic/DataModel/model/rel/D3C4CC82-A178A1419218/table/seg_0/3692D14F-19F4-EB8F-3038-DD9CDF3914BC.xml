@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3692D14F-19F4-EB8F-3038-DD9CDF3914BC" name="Lesson_Material">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<generatorID>3061BA38-C53E-21DD-73FF-FC479BC60E09</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="A2643FFF-57AF-882F-A6A7-025A975E8292">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<generatorID>490B7A7E-06D3-A59A-4B80-B7D5D2A2011A</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Language" id="15315F10-E9B8-BCD0-FB96-7ECA6D6D6BE9">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<generatorID>811D0BE6-AE70-EAC4-204F-409A0F541A99</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>6ED24F0D-1C75-1C82-904C-B914FC40B4C0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Description" id="205E81F5-1D11-7605-5CF7-268F8BB5596C">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<generatorID>D86C2E6E-6B79-5179-6E18-953225FAC723</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Category" id="909125DE-5733-10BF-349A-EBE8A6367692">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<generatorID>082C4181-2B5B-A1CB-2079-CF11903375B3</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>82E8DA92-2736-5DB8-01FB-026E6DDEBD57</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Level" id="3DC05D36-8A10-13B6-1064-A05BFE56497E">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<generatorID>7FE59D11-A3F6-04AE-ACA4-C7E2B5A0E07E</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>3B6ED188-E12A-FAAD-02E6-64091BEFC6FD</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9D3752AA-810B-BC15-F37F-5808F123CC7D" name="Lesson_Material_PK">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<generatorID>1AC78684-1E4C-4031-9EE8-B5323594A074</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2643FFF-57AF-882F-A6A7-025A975E8292"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

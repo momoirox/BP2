@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D5AC0504-8580-F7C2-EFCD-CEF27DC5FCAD" name="Online_Language_School">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:17:03 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="D3C4CC82-BCF8-ECED-B201-A178A1419218" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Name" id="C99DFE24-446B-B292-33C9-FA8A16080BC1">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:17:03 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>01B0B160-6EF1-49A7-0E3A-40BD6D36A262</importedID>
+<engineerTo>
+<item key="D3C4CC82-BCF8-ECED-B201-A178A1419218" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Url" id="CFE07A03-87EA-034F-725A-B4E3482C7BCD">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:17:03 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>9655A5BC-EB65-45C0-8C8B-884C7291A54A</importedID>
+<engineerTo>
+<item key="D3C4CC82-BCF8-ECED-B201-A178A1419218" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PrivacyPolicy" id="2940E5A0-ECC5-000B-D1EE-5F559EF6D962">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:17:03 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>19CBD075-AF3A-327C-020A-1A1B89581950</importedID>
+<engineerTo>
+<item key="D3C4CC82-BCF8-ECED-B201-A178A1419218" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TermsAndConditions" id="B84B8E1E-9530-31F3-CE25-A6887263B922">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:17:03 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<importedID>C392B3A6-10EF-2657-192A-51151B6CB3CB</importedID>
+<engineerTo>
+<item key="D3C4CC82-BCF8-ECED-B201-A178A1419218" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DE5A8A87-3776-348A-803E-AB13796965E6" name="Online_Language_School">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:17:03 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="D3C4CC82-BCF8-ECED-B201-A178A1419218" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C99DFE24-446B-B292-33C9-FA8A16080BC1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

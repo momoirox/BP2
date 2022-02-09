@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="93B8CD11-3CFD-E3C3-EC5C-C90EF96123B9" name="selects_material">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Tutor_Id" id="FED57E93-A6E3-C24C-79D5-59D698FD8B45">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D81B1203-EDEA-9E8D-AF72-D352F50385CB" referredColumn="91FDEEBA-351D-3AFA-3AB4-96C657F314C3"/>
+</associations>
+</Column>
+<Column name="Slot_Id" id="0C7AD94D-F69F-33FC-1975-7392A097AF88">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D81B1203-EDEA-9E8D-AF72-D352F50385CB" referredColumn="4B774E77-F2FF-9753-CF86-7FEA5CD33A89"/>
+</associations>
+</Column>
+<Column name="LessMatl_Id" id="3DE42FD5-6BC6-4FC0-CF68-55F177BF8BE1">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="56DD4721-55A4-31C6-DE60-733AF2A64070" referredColumn="A2643FFF-57AF-882F-A6A7-025A975E8292"/>
+</associations>
+</Column>
+<Column name="TutorReview" id="34401225-A34F-788A-692C-336CC89D25BF">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<generatorID>5B3DD58C-271A-AB1D-4360-81D87D618891</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0A1970B0-EE98-44D2-408F-9B9695062304" name="selects_material_PK">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FED57E93-A6E3-C24C-79D5-59D698FD8B45"/>
+<colUsage columnID="0C7AD94D-F69F-33FC-1975-7392A097AF88"/>
+<colUsage columnID="3DE42FD5-6BC6-4FC0-CF68-55F177BF8BE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5729A09A-8F29-2A3B-7B82-58569C4B9C07" name="Slot_FK">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<generatorID>BC6ED557-337D-9F4F-A5EF-EADE8735D250</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FED57E93-A6E3-C24C-79D5-59D698FD8B45"/>
+<colUsage columnID="0C7AD94D-F69F-33FC-1975-7392A097AF88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC4F2ABC-DF44-58CA-0843-737C902AA7C6" name="Lesson_Material_FK">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<generatorID>BC6ED557-337D-9F4F-A5EF-EADE8735D250</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3DE42FD5-6BC6-4FC0-CF68-55F177BF8BE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

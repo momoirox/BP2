@@ -1,0 +1,20 @@
+CREATE OR REPLACE VIEW najaktivinijiStudenti as(
+select s.id as student_id, a.username as student_username,count(sl.slotid)as avg_classes
+from student s , slot sl , account a
+where  s.id = sl.student_id and s.id = a.id
+group BY s.id, a.username
+having count(sl.slotid) >= 
+(select avg(count(sl.slotid)) 
+    from student s , slot sl 
+    where  s.id = sl.student_id 
+    group BY s.id)
+);
+CREATE OR REPLACE VIEW omiljeniProfesori as(
+select distinct a.firstname, a.lastname, t.language
+from najaktivinijiStudenti ns, slot s, tutor t, account a
+where ns.student_id = s.student_id and s.tutor_id = t.id and a.id = t.id
+);
+
+select *
+from omiljeniprofesori;
+    

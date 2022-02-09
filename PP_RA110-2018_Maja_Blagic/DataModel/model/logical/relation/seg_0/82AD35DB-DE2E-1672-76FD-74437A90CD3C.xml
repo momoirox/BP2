@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="opens_slot" directorySegmentName="seg_0" id="82AD35DB-DE2E-1672-76FD-74437A90CD3C">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:42:13 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="D3C4CC82-BCF8-ECED-B201-A178A1419218" value="true"/>
+</engineerTo>
+<sourcePk>F906677C-80AD-1ED9-4656-533767BE8B57</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>20B0BC29-6FED-65F7-9175-12DC8BD60C34</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6BA37AA0-6B5C-20B3-0091-CA8CB1CDACA2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

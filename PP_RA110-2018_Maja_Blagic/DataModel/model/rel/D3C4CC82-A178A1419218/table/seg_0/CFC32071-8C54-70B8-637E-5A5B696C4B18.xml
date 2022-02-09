@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CFC32071-8C54-70B8-637E-5A5B696C4B18" name="Administrator">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<generatorID>24A54675-67F1-647B-5C71-9C23D84E8652</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="06E0C196-569C-6DD0-D7A8-03C683F1D8D0">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<generatorID>8FB02F91-68DD-A48B-0617-54BDF2898BF0</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1680E77B-A797-7EE5-539C-241F8A00E6D1" referredColumn="1A911A16-C4ED-33B3-6512-E4AB1CD93B19"/>
+</associations>
+</Column>
+<Column name="Id1" id="FD54326C-8EA0-7599-3807-6FF85CC1BB96">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<generatorID>34033D18-5590-1CBE-5E08-5AB10C5C190C</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Salary" id="922BB7F8-224E-BD4C-2C0D-8C4F90F0C360">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<generatorID>2ABCED80-A05A-B86A-9AF2-BCBDCEA298BC</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6ACA7DD5-F460-8E49-7BEF-566F50EB471E" name="Administrator_PK">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<generatorID>981C66D2-9C3E-0638-A970-C34C86324EB4</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06E0C196-569C-6DD0-D7A8-03C683F1D8D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4C9FC620-DC67-E682-6D6A-A17AA0D417F9" name="Administrator_PKv1">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<generatorID>3477B2C0-F1FD-9E77-F107-BAD1698C772A</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD54326C-8EA0-7599-3807-6FF85CC1BB96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C914D54-ACBA-3C71-EA4F-59DEC7674DB6" name="Administrator_Account_FK">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<generatorID>D2418E21-413C-3DAD-8053-6F719917B287</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06E0C196-569C-6DD0-D7A8-03C683F1D8D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="66AE1E06-D385-A88A-53C3-854BDE09FF20" containerWithKeyObject="D29A1BC9-888F-A48B-BDAD-FDA3179C10A2" localFKIndex="EEE36F51-4108-2232-ABB4-DFB0D15BD82A" name="Question_Tutor_FK">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<generatorID>F8AA605F-F67C-5649-04F8-0E64F036B6B0</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>Tutor</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C5EED20B-5C0B-93B2-4E94-8148D182F95B</referredTableID>
+<keyObject>73A3DDBF-041E-2492-8704-427643CBA59D</keyObject>
+<referredKeyID>73A3DDBF-041E-2492-8704-427643CBA59D</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>AccountId</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

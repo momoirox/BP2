@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="64EFD4DB-05D6-DACE-E203-0CA8E129BA08" name="Student">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<generatorID>8567CC8A-D53D-AF3F-9951-3D0158E51915</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="D1D68B5D-462A-CA72-6AFC-3E61F6E1C5A6">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<generatorID>8FB02F91-68DD-A48B-0617-54BDF2898BF0</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D10ACAD2-7CF2-B22C-4C55-B2E0F96CC44A" referredColumn="1A911A16-C4ED-33B3-6512-E4AB1CD93B19"/>
+</associations>
+</Column>
+<Column name="Id1" id="4339AA6C-3EB5-5890-13E8-37166C070BA9">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<generatorID>1A573610-C8FB-F539-797E-A161FA105B31</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4F2FFE0D-9307-2B10-D94B-2E5A4ED897A5" name="Student_PK">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<generatorID>981C66D2-9C3E-0638-A970-C34C86324EB4</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1D68B5D-462A-CA72-6AFC-3E61F6E1C5A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F3E0576-C12B-8BB8-D761-F0B89B633E31" name="Student_PKv1">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<generatorID>D34782A9-D836-9A00-B14A-98CAC64C6391</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4339AA6C-3EB5-5890-13E8-37166C070BA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0BCDC6D-BF94-B957-1160-87AFA43027D8" name="Student_Account_FK">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<generatorID>C4FF5F90-847E-CB86-5AE7-49E014744682</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1D68B5D-462A-CA72-6AFC-3E61F6E1C5A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

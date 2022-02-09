@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6BA37AA0-6B5C-20B3-0091-CA8CB1CDACA2" name="Slot">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:19:44 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="D3C4CC82-BCF8-ECED-B201-A178A1419218" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="D0327D1F-DAB3-1DC7-ADCB-C082594CF5D3">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:45:35 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="D3C4CC82-BCF8-ECED-B201-A178A1419218" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="StartTime" id="579512B4-AF56-7BF4-EBE8-729466194223">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:46:12 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="D3C4CC82-BCF8-ECED-B201-A178A1419218" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EndTime" id="CB52F819-657F-B463-0140-2511FB015C41">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:46:45 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="D3C4CC82-BCF8-ECED-B201-A178A1419218" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TutorId" id="8C27D989-6C66-E0C5-87D1-712CD004D119">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:42:13 UTC</createdTime>
+<generatorID>82AD35DB-DE2E-1672-76FD-74437A90CD3C</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="D3C4CC82-BCF8-ECED-B201-A178A1419218" value="true"/>
+</engineerTo>
+<referedAttribute>A781C16B-2754-2313-0CE0-07B06FAD9432</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id1" id="EF88DC58-C23B-C5F3-9DDC-5E7D7474B7CE">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-22 05:09:53 UTC</createdTime>
+<generatorID>87D99FE7-8EBD-CC9B-3C92-CE5E5772920C</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="D3C4CC82-BCF8-ECED-B201-A178A1419218" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>1A573610-C8FB-F539-797E-A161FA105B31</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BF4EDE38-24C5-FEE3-9D51-417210F3C533" name="Slot PK">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:42:30 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="D3C4CC82-BCF8-ECED-B201-A178A1419218" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8C27D989-6C66-E0C5-87D1-712CD004D119</attributeRef>
+<attributeRef>D0327D1F-DAB3-1DC7-ADCB-C082594CF5D3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

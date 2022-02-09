@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="33EFD3CD-444C-B8B6-FB07-9702609959C4" name="Question">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:19:33 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="D3C4CC82-BCF8-ECED-B201-A178A1419218" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="6560A841-A007-D3BD-CF38-AAC605CC4CFA">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:38:33 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="D3C4CC82-BCF8-ECED-B201-A178A1419218" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Content" id="A01C29B3-1200-5CBF-6A61-1C9598544E1E">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:38:43 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="D3C4CC82-BCF8-ECED-B201-A178A1419218" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Title" id="6FC90973-ADF7-369D-E5E4-E5703CBE87AA">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:38:54 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="D3C4CC82-BCF8-ECED-B201-A178A1419218" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Response" id="6F2B9270-2425-A396-FCDB-A6FE657D8024">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:39:05 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="D3C4CC82-BCF8-ECED-B201-A178A1419218" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AdminId" id="5CB88E18-C4A7-4978-62F6-666166FD9D1E">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:37:14 UTC</createdTime>
+<generatorID>BFBD7FE0-0616-E35A-D4A2-BBDF10B2608D</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="D3C4CC82-BCF8-ECED-B201-A178A1419218" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>34033D18-5590-1CBE-5E08-5AB10C5C190C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="StudentId" id="4F01E666-4D30-386A-C949-AB0FD75F7E3F">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:39:44 UTC</createdTime>
+<generatorID>53D5E9F0-04F6-E862-737F-14E74F8F028B</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="D3C4CC82-BCF8-ECED-B201-A178A1419218" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>1A573610-C8FB-F539-797E-A161FA105B31</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TutorId" id="87B1E2FE-3D7F-04A9-C19A-9EBC1DCBBABD">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:40:22 UTC</createdTime>
+<generatorID>F8AA605F-F67C-5649-04F8-0E64F036B6B0</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="D3C4CC82-BCF8-ECED-B201-A178A1419218" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>A781C16B-2754-2313-0CE0-07B06FAD9432</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DD3F62B6-409A-8F98-B9AD-72393E6B05E1" name="Question PK">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:37:14 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="D3C4CC82-BCF8-ECED-B201-A178A1419218" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6560A841-A007-D3BD-CF38-AAC605CC4CFA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="49DFF8DA-CFA8-3285-3CB1-B00B082B3513" name="Slot">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<generatorID>6BA37AA0-6B5C-20B3-0091-CA8CB1CDACA2</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="4B774E77-F2FF-9753-CF86-7FEA5CD33A89">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<generatorID>D0327D1F-DAB3-1DC7-ADCB-C082594CF5D3</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="StartTime" id="B22B70C8-C0B1-47F6-5362-5E497E8F0552">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<generatorID>579512B4-AF56-7BF4-EBE8-729466194223</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EndTime" id="C4E3C783-D0F7-4189-BB37-AE89C0D96597">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<generatorID>CB52F819-657F-B463-0140-2511FB015C41</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tutor_AccountId" id="91FDEEBA-351D-3AFA-3AB4-96C657F314C3">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<generatorID>8C27D989-6C66-E0C5-87D1-712CD004D119</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1A3D6BF7-5A4D-5448-9739-61F40C8EEE1A" referredColumn="4B18E42F-8479-2314-AC14-0FE365FB2082"/>
+</associations>
+</Column>
+<Column name="Student_Id1" id="A278CFC1-6B1B-0AAC-B017-FD9A99C5934B">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-22 05:10:47 UTC</createdTime>
+<generatorID>EF88DC58-C23B-C5F3-9DDC-5E7D7474B7CE</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B1100B3C-022F-1980-7E45-15BE8FCF5576" referredColumn="4339AA6C-3EB5-5890-13E8-37166C070BA9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AEBDA912-2605-2890-8E8D-A4478F032C33" name="Slot_PK">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<generatorID>BF4EDE38-24C5-FEE3-9D51-417210F3C533</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91FDEEBA-351D-3AFA-3AB4-96C657F314C3"/>
+<colUsage columnID="4B774E77-F2FF-9753-CF86-7FEA5CD33A89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF86C996-A832-C92A-2D04-0A73082C9682" name="Slot_Tutor_FK">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-13 09:57:51 UTC</createdTime>
+<generatorID>82AD35DB-DE2E-1672-76FD-74437A90CD3C</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91FDEEBA-351D-3AFA-3AB4-96C657F314C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8CDB4954-D782-885F-04F2-001380A90328" name="Slot_Student_FK">
+<createdBy>Maya</createdBy>
+<createdTime>2022-01-22 05:10:47 UTC</createdTime>
+<generatorID>87D99FE7-8EBD-CC9B-3C92-CE5E5772920C</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A278CFC1-6B1B-0AAC-B017-FD9A99C5934B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
